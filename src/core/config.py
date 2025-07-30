@@ -1,0 +1,6 @@
+import os
+
+class Config:
+    JWT_SECRET_KEY = "your-super-secret-key"
+    ALGORITHM = "HS256"
+    ACCESS_TOKEN_EXPIRE_MINUTES = 30

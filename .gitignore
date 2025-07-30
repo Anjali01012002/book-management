@@ -1,0 +1,41 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+env/
+venv/
+
+# VS Code settings (optional)
+.vscode/
+
+# macOS system files
+.DS_Store
+
+# SQLite database files (optional — ignore if you don't want to commit local DB)
+*.sqlite3
+*.db
+
+# Logs
+*.log
+
+# Python virtual environment backups
+pip-wheel-metadata/
+*.egg-info/
+build/
+dist/
+
+# Test cache
+.pytest_cache/
+
+# Uvicorn reload artifacts
+*.pid
+
+# Environment variables
+.env
+.env.*
+
+# OS-specific
+Thumbs.db
+ehthumbs.db
