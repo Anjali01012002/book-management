@@ -61,6 +61,8 @@ book-management/
 ├── main.py
 ├── requirements.txt
 ├── README.md
+├── tests/
+│   ├──test_basic.py
 ├── assets/
 │   ├── create_book.png
 │   ├── delete_book.png
@@ -72,7 +74,6 @@ book-management/
 │   └── user.png
 └── src/
     ├── api/
-    │   ├── auth.py
     │   ├── books.py
     │   └── users.py
     ├── core/
